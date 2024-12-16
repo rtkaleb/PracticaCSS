@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+
+h1{
+    color: red;
+    }
+
+.Prueba{
+    color: blue;
+        font-size: 30px;
+        font-family:sans-serif;
+        }
+
+.Prueba2{
+    color: forestgreen;
+    font-size: 50px;
+    font-family:sans-serif;
+        }
+
+#unico{
+    color: purple;
+        }
+
+.contenedor{
+    background-color: bisque;
+    height: 200px;
+    padding: 20px;
+}
+.contenedor button{
+    background-color: blueviolet;
+    padding: 10px;
+    border: 1px dotted black;
+    border-radius: 10px;
+    transition-duration: 500ms;
+}
+
+.contenedor button:hover{
+    background-color: rgb(203,172,231);
+    color: rgb(103,103,103);
+    padding: 12px;
+    border: 1px dotted black;
+    border-radius: 10px;
+}
