@@ -45,3 +45,10 @@ h1{
     border: 1px dotted black;
     border-radius: 10px;
 }
+
+h3{color: red}
+h4{color: green}
+a{color: violet}
+p{color: aquamarine;
+font-size: 30px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
