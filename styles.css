@@ -389,3 +389,89 @@ aside{
     z-index: 1000; /* Asegura que siempre quede sobre el contenido */
   
   }
+  @media (max-width: 600px) {
+
+    body {
+  
+      font-size: 16px; /* Tamaño de fuente adecuado para pantallas pequeñas */
+  
+    }
+  
+    .navbar {
+  
+      flex-direction: column; /* Organiza la navegación verticalmente */
+  
+      align-items: center;
+  
+    }
+  
+    .sidebar {
+  
+      display: none; /* Oculta la barra lateral en móviles para evitar el desorden */
+  
+    }
+  
+  }
+  @media (min-width: 600px) and (max-width: 1024px) {
+
+    body {
+  
+      font-size: 18px; /* Tamaño de fuente un poco mayor, adaptado a pantallas medianas */
+  
+    }
+  
+    .navbar {
+  
+      flex-direction: row; /* Volvemos la navegación a horizontal */
+  
+      justify-content: space-around;
+  
+    }
+  
+    .sidebar {
+  
+      display: block; /* Mostramos la barra lateral, pero la mantenemos accesoria */
+  
+      width: 30%;
+  
+    }
+  
+    .main-content {
+  
+      width: 70%; /* Ajustamos el ancho del contenido principal */
+  
+    }
+  
+  }
+
+  @media (min-width: 1024px) {
+
+    body {
+  
+      font-size: 20px; /* Fuente más grande para legibilidad en pantallas grandes */
+  
+    }
+  
+    .container {
+  
+      display: flex;
+  
+      flex-direction: row; /* Mantenemos un layout amplio y cómodo */
+  
+      flex-wrap: nowrap; /* Evitamos que los elementos se envuelvan */
+  
+    }
+  
+    .sidebar {
+  
+      width: 25%; /* Ajustamos la barra lateral para ocupar un espacio menor */
+  
+    }
+  
+    .main-content {
+  
+      width: 75%; /* El contenido principal tiene la mayor prioridad */
+  
+    }
+  
+  }
